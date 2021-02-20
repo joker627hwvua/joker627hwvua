@@ -64,15 +64,6 @@ cpb = []
 oks = []
 id = []
 
-def menu():
-    os.system('clear')
-    print logo
-    print 42 * '='
-    print '[1] shera boram kurdm [up] '
-    print 42 * '='
-    action()
-
-
 def action():
     global cpb
     global oks
